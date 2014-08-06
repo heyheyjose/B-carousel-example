@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jose Vazquez">
+    <title>Carousel Example</title>
+
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="navbar navbar-default m-nav"><!-- start navbar -->
+      <div class="container"><!-- start container -->
+        <a class="navbar-brand" href="#"><i class="fa fa-code"></i> Carousel Example Landing Page</a>
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="mailto:admin@example.com" target="_blank"><i class="fa fa-envelope-o"></i> Email Me</a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+          </ul>
+        
+      </div><!-- end container -->
+      
+    </div><!-- end navbar -->
+
+    <div id="landing-page-carousel" class="carousel slide" data-ride="carousel">
+
+      <!-- indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#landing-page-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#landing-page-carousel" data-slide-to="1"></li>
+        <li data-target="#landing-page-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- wrapper for slides -->
+      <div class="carousel-inner">
+
+        <div class="item active"><!-- picture 1 (active) -->
+          <img src="images/beach.jpg" alt="beach">
+          <div class="carousel-caption">
+            <h2>The Beach</h2>
+          </div>
+        </div>
+        
+        <div class="item"><!-- picture 2 -->
+          <img src="images/birds.jpg" alt="birds">
+          <div class="carousel-caption">
+            <h2>The Birds</h2>
+          </div>
+        </div>
+
+        <div class="item"><!-- picture 3 -->
+          <img src="images/tea.jpg" alt="tea">
+          <div class="carousel-caption">
+            <h2>The Tea</h2>
+          </div>
+        </div>
+
+      </div><!-- end slide wrapper -->
+
+      <!-- controls -->
+      <a class="left carousel-control" href="#landing-page-carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+
+      <a class="right carousel-control" href="#landing-page-carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    
+    </div><!-- end landing-page-carousel ID -->
+
+    <div class="container marketing"><!-- start marketing/features container -->
+
+      <hr class="divider">
+
+      <div class="row"><!-- start row -->
+
+        <div class="col-md-7">
+          <h2 class="featurette-heading">HTML is <span class="text-muted">100% Free</span></h2>
+          <p class="lead">
+            No gimmicks. No bull. HTML is brought to you for free by the W3C. It can be used from the comfort of your own home, or favorite coffee shop, or craft beer bar. And it works in the browser along with CSS and JavaScript. Use all three to make an awesome website!
+          </p>
+        </div>
+
+        <div class="col-md-5">
+          <img src="images/dog.jpg" alt="Dogs love HTML" class="img-thumbnail">
+        </div>
+        
+      </div><!-- end row -->
+
+      <hr class="divider">
+
+      <div class="row"><!-- start row -->
+
+        <div class="col-md-5">
+          <img src="images/chrome.jpg" alt="Chrome browser">
+        </div>
+
+        <div class="col-md-7">
+          <h2 class="featurette-heading">What's included with HTML?</h2>
+          <p class="lead">
+            Tags to make words <strong>bold</strong>. <em>Like a boss</em> And tons of CSS properties to style your page: <code> .ninja { color: black; visibility: none; }</code>
+          </p>
+        </div>
+        
+      </div><!-- end row -->
+
+      <hr class="divider">
+
+      <div class="companies"><!-- start companies -->
+
+        <div class="text-center">
+          <h3 class="text-muted">HTML is trusted by 100,000+ companies, including:</h3>
+        </div>
+
+        <div class="row"><!-- start row -->
+
+          <div class="col-md-3">
+            <img src="images/company1.svg" alt="Bloomberg">
+          </div>
+
+          <div class="col-md-3">
+            <img src="images/company2.svg" alt="Google">
+          </div>
+
+          <div class="col-md-3">
+            <img src="images/company3.svg" alt="Y Combinator">
+          </div>
+
+          <div class="col-md-3">
+            <img src="images/company4.svg" alt="Singularity University">
+          </div>
+
+        </div><!-- end row -->
+
+      </div><!-- end companies -->
+      
+    </div><!-- end marketing/features container -->
+
+
+    <!-- start footer -->
+
+    <footer>
+      <p class="pull-right">Back to <a href="#" class="m-footer-a">Top</a></p>
+      <p>Crafted with &#x2661; in <a href="http://en.wikipedia.org/wiki/Tampa,_Florida" target="_blank" class="m-footer-a">Tampa</a></p>
+    </footer>
+
+    <!-- end footer -->
+
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+  </body>
+</html>
